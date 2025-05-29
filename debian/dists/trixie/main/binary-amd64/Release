@@ -1,0 +1,5 @@
+Component: main
+Origin: Debian
+Label: MiniOS Repository
+Architecture: amd64
+Description: MiniOS Repository

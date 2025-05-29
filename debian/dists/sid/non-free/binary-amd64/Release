@@ -1,0 +1,5 @@
+Component: non-free
+Origin: Debian
+Label: MiniOS Repository
+Architecture: amd64
+Description: MiniOS Repository
