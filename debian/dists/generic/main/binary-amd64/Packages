@@ -19,6 +19,28 @@ Description: default icon theme of GNOME.
  This version is a much strippd down version for antiX Linux.
  No cursers theme included.
 
+Package: eddy
+Version: 1.3.2-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1171
+Depends: packagekit, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.0.0), libgtk-3-0 (>= 3.21.4), libpackagekit-glib2-18 (>= 1.1.0), libzeitgeist-2.0-0 (>= 0.9.9), dconf-gsettings-backend | gsettings-backend
+Homepage: https://github.com/donadigo/eddy
+Priority: optional
+Section: utils
+Filename: pool/main/e/eddy/eddy_1.3.2-1_amd64.deb
+Size: 79488
+SHA256: c9d872965f96807c8da3822625c597ba0aa71904705ba63c2003cca84784a77e
+SHA1: ab28e094a0efc9593bda08929cd7160862b239f0
+MD5sum: b869919749b1156d74f9ae041ff2800b
+Description: Eddy - Debian package management tool for elementary OS
+ Eddy is a simple and user-friendly Debian package management tool.
+ It is designed specifically for elementary OS. It allows users to
+ install, update, and uninstall Debian packages with ease. In addition
+ to managing Debian packages, Eddy also supports other packaging
+ formats such as .rpm, thanks to its PackageKit backend. This makes
+ Eddy a versatile tool for managing packages on any Debian-based system.
+
 Package: eddy-handler
 Version: 1.0
 Architecture: all
