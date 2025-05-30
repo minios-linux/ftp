@@ -466,6 +466,24 @@ Description: xrdp module for PulseAudio sound server
  .
  The module is called module-xrdp.
 
+Package: rmg
+Version: 0.7.9-0minios1~bookworm
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 62894
+Depends: libc6 (>= 2.35), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.4), libglx0, libhidapi-hidraw0 (>= 0.8.0~rc1+git20140201.3a66d4e+dfsg), libminizip1 (>= 1.1), libopengl0, libpng16-16 (>= 1.6.2-1), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6svg6 (>= 6.2.0), libqt6websockets6 (>= 6.2.1), libqt6widgets6 (>= 6.3.0), libsamplerate0 (>= 0.1.7), libsdl2-2.0-0 (>= 2.24.0), libsdl2-net-2.0-0 (>= 2.0.1), libspeexdsp1 (>= 1.2.1), libstdc++6 (>= 12), qt6-websockets-abi (= 6.4.2), zlib1g (>= 1:1.1.4)
+Homepage: https://github.com/Rosalie241/RMG
+Priority: optional
+Section: games
+Filename: pool/main/r/rmg/rmg_0.7.9-0minios1~bookworm_amd64.deb
+Size: 46478456
+SHA256: cc0f9925884a10fe1f3c975aa196a570e0e1e7d7652082877800e3223b2f630b
+SHA1: d50ff6ddf09e5193b0dbba3bb0c11d7dcf040e4a
+MD5sum: 83338fe0d38492f19ee1c3d1cb994657
+Description: Rosalie’s Mupen64Plus GUI front-end
+ Rosalie’s Mupen GUI is a free and open-source front-end for Mupen64Plus,
+ written in C++ and using Qt6 for its user interface.
+
 Package: systrayicon
 Version: 1.0-1
 Architecture: amd64
