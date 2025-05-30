@@ -434,7 +434,7 @@ Description: extremely fast and lightweight file manager
   * Support GVFS for auto-mount handling on removable devices
 
 Package: pulseaudio-module-xrdp
-Version: 0.7-0.mos~d12+1
+Version: 0.8-0minios1~bookworm
 Architecture: amd64
 Maintainer: Kali Developers <devel@kali.org>
 Installed-Size: 73
@@ -442,11 +442,11 @@ Depends: pulseaudio (>= 16.1+dfsg1), pulseaudio (<< 16.1+dfsg1.1), libc6 (>= 2.4
 Homepage: https://github.com/neutrinolabs/pulseaudio-module-xrdp
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio-module-xrdp/pulseaudio-module-xrdp_0.7-0.mos~d12+1_amd64.deb
-Size: 15868
-SHA256: 28e6f455ab74346f05466be7288a206001d3caa7c0502cb8a0304a0c71bc85b6
-SHA1: 1bd9f2a5ae32583a96bf2740abe317d5cc37bbcc
-MD5sum: cd75f10a3619a5e9637ede3a24c74e5b
+Filename: pool/main/p/pulseaudio-module-xrdp/pulseaudio-module-xrdp_0.8-0minios1~bookworm_amd64.deb
+Size: 16112
+SHA256: 5c0f5a1ba930424fdaec00a7f834f052ee42df802f9afc367b7acd69a8c28e99
+SHA1: db13ce3820a9358ad94da069d165b71b6670d44c
+MD5sum: d96214eae4527b49566e2ae7e3261347
 Description: xrdp module for PulseAudio sound server
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
