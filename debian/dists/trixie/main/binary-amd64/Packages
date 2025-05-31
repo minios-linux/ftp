@@ -1,0 +1,33 @@
+Package: pulseaudio-module-xrdp
+Version: 0.8-0minios1~trixie
+Architecture: amd64
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 73
+Depends: pulseaudio (>= 17.0+dfsg1), pulseaudio (<< 17.0+dfsg1.1), libc6 (>= 2.4)
+Homepage: https://github.com/neutrinolabs/pulseaudio-module-xrdp
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio-module-xrdp/pulseaudio-module-xrdp_0.8-0minios1~trixie_amd64.deb
+Size: 15988
+SHA256: 72cb77c1f6066ba039b39e61de7571073caf0e328f39044e9b39be65b62b4345
+SHA1: e50f4dfc3fa1e6dd5cefd2e97455ff3606cf9efb
+MD5sum: 35dce2939875ec5bdbe2c24d2187b174
+Description: xrdp module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This modules provides xrdp sink / source for PulseAudio.
+ .
+ The server to client audio redirection is implemented as per Remote Desktop
+ Protocol: Audio Output Virtual Channel Extension [MS-RDPEA] specs, which
+ means it is interoperable with any RDP client which implements it (most of
+ them including: MS RDP clients, FreeRDP).
+ .
+ The client to server audio redirection is implemented as per Remote Desktop
+ Protocol: Audio Input Redirection Virtual Channel Extension [MS-RDPEAI] which
+ means it is interoperable with any RDP client which implements it (most of
+ them including: MS RDP clients, FreeRDP).
+ .
+ The module is called module-xrdp.
+
