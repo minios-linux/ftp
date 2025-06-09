@@ -301,16 +301,16 @@ Package: minios-configurator
 Version: 2.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 111
-Depends: python3 (>= 3.8), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, whois, openssl
+Installed-Size: 98
+Depends: python3 (>= 3.8), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, whois, openssl, minios-live-config
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_2.0_all.deb
-Size: 17388
-SHA256: 70f07191d88bc149e3d199c0d74cc8883706683407cd93b14fbceda124b14fdf
-SHA1: bb1492ad08cfc2c00fdfe483281f56483f52dbeb
-MD5sum: c3be018564cfa0819fda7ce09cd2d57d
+Size: 15848
+SHA256: 680345d04bb6a6b952703660aebfe5cdcce179d56fb5b27b47144dea44e047ad
+SHA1: 9e26e95c25fcd3b120b9f763bd8fdb609b70fa1b
+MD5sum: 51f7560aa479a9776c7f5282f8356c27
 Description: MiniOS Linux configuration utility.
  MiniOS Configurator is a utility specially designed for quick and easy
  configure MiniOS.
@@ -355,6 +355,110 @@ Description: Scripts to build a bootable MiniOS ISO image.
  environments like Xfce4, Fluxbox, and LXQT. It offers a portable,
  user-friendly system with a graphical interface, ideal for creating
  lightweight, customizable live systems.
+
+Package: minios-live-config
+Version: 11.0.5
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 156
+Depends: minios-live-config-systemd | minios-live-config-backend, bash (>= 4.0), perl
+Recommends: iproute2 | iproute, keyboard-configuration, minios-live-config-doc, locales | locales-all, sudo, user-setup
+Suggests: pciutils, wget, shared-mime-info, gdk-pixbuf2.0-bin, libgtk-3-bin, glib-2.0-bin, desktop-file-utils, xfonts-utils, fontconfig
+Conflicts: live-config
+Homepage: https://github.com/minios-linux/minios-live-config
+Priority: optional
+Section: misc
+Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5_all.deb
+Size: 23428
+SHA256: 11db9d6a53553b03a2685e813f0fc40ee5aa65f8490d39c42d83d525b2472f30
+SHA1: dd9aa7ed97289ce880d49d2681bfc69602be8ea8
+MD5sum: 695bbb04adf3ac5c2c39dad4932a8d0c
+Description: Live System Configuration Components
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-config contains the components to configure a live system during the boot
+ process (late userspace).
+ .
+ In addition to live-config, a backend for an init system is required, such as
+ live-config-systemd.
+
+Package: minios-live-config-doc
+Source: minios-live-config
+Version: 11.0.5
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 126
+Conflicts: live-config-doc
+Multi-Arch: foreign
+Homepage: https://github.com/minios-linux/minios-live-config
+Priority: optional
+Section: doc
+Filename: pool/main/m/minios-live-config/minios-live-config-doc_11.0.5_all.deb
+Size: 75432
+SHA256: 89a3a759aa34576c9c1a9e0fc42a35c0f5f3a70618476b1fcc6766c73b30b5cf
+SHA1: 0cd2f6a819c8eab2c0927d0bcd2fd341e43b1a45
+MD5sum: 23e0d4ec2b6370bb7d2f12fe2bda1a4e
+Description: Live System Configuration Components (documentation)
+ live-config contains the components that configure a live system during the
+ boot process (late userspace).
+ .
+ This package contains the documentation.
+
+Package: minios-live-config-systemd
+Source: minios-live-config
+Version: 11.0.5
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 20
+Depends: systemd
+Recommends: dbus
+Conflicts: live-config-backend, live-config-systemd, minios-live-config-backend
+Replaces: live-config-backend, live-config-systemd, minios-live-config-backend
+Provides: live-config-backend, minios-live-config-backend
+Homepage: https://github.com/minios-linux/minios-live-config
+Priority: optional
+Section: misc
+Filename: pool/main/m/minios-live-config/minios-live-config-systemd_11.0.5_all.deb
+Size: 4716
+SHA256: 0822933e26b8a97faceae34e6b6eafa536974a6af23a509f0879ffe2dee048bc
+SHA1: cd4075c528a2b379adb89860f0f91623884832fb
+MD5sum: 5a5648672db20d5c015a15559794629d
+Description: Live System Configuration Components (systemd backend)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-config contains the components to configure a live system during the boot
+ process (late userspace).
+ .
+ This package contains the systemd backend.
+
+Package: minios-live-config-sysvinit
+Source: minios-live-config
+Version: 11.0.5
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 27
+Depends: sysvinit-core | sysvinit (<< 2.88dsf-44)
+Conflicts: live-config-backend, live-config-sysvinit, minios-live-config-backend
+Replaces: live-config-backend, live-config-sysvinit, minios-live-config-backend
+Provides: live-config-backend, minios-live-config-backend
+Homepage: https://github.com/minios-linux/minios-live-config
+Priority: optional
+Section: misc
+Filename: pool/main/m/minios-live-config/minios-live-config-sysvinit_11.0.5_all.deb
+Size: 5124
+SHA256: 78750214d42799be7cdd53f0f31a8529f9e54c0114794adc3408bb25ef547107
+SHA1: 7371ceb998e506daf5a25853584ce257bf118e05
+MD5sum: 286f63d73ed2c60c70be7ecdff1e3552
+Description: Live System Configuration Components (sysvinit backend)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-config contains the components to configure a live system during the boot
+ process (late userspace).
+ .
+ This package contains the sysvinit backend.
 
 Package: minios-tools
 Version: 1.3.1
