@@ -439,7 +439,7 @@ Source: minios-live-config
 Version: 11.0.5
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 20
+Installed-Size: 21
 Depends: systemd
 Recommends: dbus
 Conflicts: live-config-backend, live-config-systemd, minios-live-config-backend
@@ -449,10 +449,10 @@ Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
 Filename: pool/main/m/minios-live-config/minios-live-config-systemd_11.0.5_all.deb
-Size: 4716
-SHA256: 0822933e26b8a97faceae34e6b6eafa536974a6af23a509f0879ffe2dee048bc
-SHA1: cd4075c528a2b379adb89860f0f91623884832fb
-MD5sum: 5a5648672db20d5c015a15559794629d
+Size: 4852
+SHA256: 62b33d2737b350f050dfd06af56be5e6ae3aba2e8d8dbcaf610d9f01e089b5f4
+SHA1: 60769270fd2643e2cb46670c01004438f9347afe
+MD5sum: 60911c9fc31a47fe79d24129fd61c6e5
 Description: Live System Configuration Components (systemd backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.

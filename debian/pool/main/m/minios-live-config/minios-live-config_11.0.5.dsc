@@ -16,8 +16,8 @@ Package-List:
  minios-live-config-systemd deb misc optional arch=all
  minios-live-config-sysvinit deb misc optional arch=all
 Checksums-Sha1:
- e8aa08b50737225a5e0ac6d9ad667c9fb03f8cfa 121500 minios-live-config_11.0.5.tar.xz
+ df4826a6effad3c85d26ce56aaa489f7f3191e36 121584 minios-live-config_11.0.5.tar.xz
 Checksums-Sha256:
- d70e85a94722e792583568df98c2e92484fb74cc05b964344ef547d51800fe1e 121500 minios-live-config_11.0.5.tar.xz
+ 658f02490cfafe8637cd3e7d0ed3b13e729a3da621f14494f77e282e90036d5d 121584 minios-live-config_11.0.5.tar.xz
 Files:
- c7ff159731ba7e29dd1a6ab989e95bff 121500 minios-live-config_11.0.5.tar.xz
+ efb81cd1d1ed665ce4eb679686a0857a 121584 minios-live-config_11.0.5.tar.xz
