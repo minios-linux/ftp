@@ -334,9 +334,9 @@ Priority: optional
 Section: misc
 Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.1_all.deb
 Size: 24392
-SHA256: cd037dff13f860e5fc8cb42413e3393fffd483b576719a0a819e1e49057390af
-SHA1: 4aa16942773cf0d9064db4128d733dc780dd9e93
-MD5sum: aa8c3516cd026ee495decc48b72954a2
+SHA256: cd5d7e63e41783b6b1c961098a28404be23d8fc0467ec0ba6fe73ec49bf85d24
+SHA1: cedbf08bc995ea93b690e6d39ca6af4c941362c5
+MD5sum: 9f823e999cea96062ff8d56cb373b7ab
 Description: Live System Configuration Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
