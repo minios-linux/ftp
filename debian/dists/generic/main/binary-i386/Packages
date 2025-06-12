@@ -317,16 +317,16 @@ Package: minios-configurator
 Version: 2.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 99
+Installed-Size: 165
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.8), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, whois, openssl, minios-live-config
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_2.0_all.deb
-Size: 15908
-SHA256: 3938e92a0f64539e1c92920c72cc75ea3c62a73385351d9c66ad113a0af5a040
-SHA1: 73afe26f5796c3c6955a71a889cfd5447c824439
-MD5sum: af554d7e7988da75a88662f1eb076a82
+Size: 24020
+SHA256: 8700fb1323f31db62e3e6f31a1be22681ddd6e38ba03166f37d7522fdd1cb323
+SHA1: 76868d5f5893885c7a37aedb15a82f4d9ad8489e
+MD5sum: af3c6738cc139dc74a3693454ddb0072
 Description: MiniOS Linux configuration utility.
  MiniOS Configurator is a utility specially designed for quick and easy
  configure MiniOS.
@@ -335,16 +335,16 @@ Package: minios-installer
 Version: 2.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 148
+Installed-Size: 155
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.8), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, parted, e2fsprogs, dosfstools, btrfs-progs, ntfs-3g, extlinux, util-linux (>= 2.34), minios-configurator (= 2.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_2.0_all.deb
-Size: 24976
-SHA256: 9e905b810b7948c4f3c4812bac236c7f2680f41310f7adacda7113c05c4b83cd
-SHA1: 70d4a9b5b66b7dd18b04eac45a695072d27928d0
-MD5sum: d5f94b91a4a6cfbb40c7a20d0307a1b9
+Size: 26192
+SHA256: bef00d1f88d12131e1ab91cd01776437e110d6464dc065eda063064ca257d4db
+SHA1: dbfb800e0dbd273e10bb6e7b031627b1d73485d6
+MD5sum: edc87b8d60184b7c2beb715aefedc091
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
