@@ -283,16 +283,16 @@ Package: minios-installer
 Version: 2.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 144
+Installed-Size: 146
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.8), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, parted, e2fsprogs, dosfstools, btrfs-progs, ntfs-3g, extlinux, util-linux (>= 2.34), minios-configurator (= 2.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_2.0_all.deb
-Size: 24288
-SHA256: e29db3e435e179a4b8a012d9ade2bcf8949ad7df30bfbd41c744c3c969f278e9
-SHA1: 5d631d5e7bb78640f4a420201141db2d40b6ff96
-MD5sum: f6ad4703edac6543f17bdd6dd33fcf5c
+Size: 24712
+SHA256: a847b533da9c837b250f5602de28e5d1159e6dc1611c1a64eb71a62e49469335
+SHA1: f0d699dcda78191d15bd4385c834df2c8ee61301
+MD5sum: 703ecfbc356a67ec52b1e0ec2a0a76cf
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
@@ -333,10 +333,10 @@ Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
 Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.1_all.deb
-Size: 24392
-SHA256: cd5d7e63e41783b6b1c961098a28404be23d8fc0467ec0ba6fe73ec49bf85d24
-SHA1: cedbf08bc995ea93b690e6d39ca6af4c941362c5
-MD5sum: 9f823e999cea96062ff8d56cb373b7ab
+Size: 24404
+SHA256: 399af054b7db5f16ae9df816aeaa37b0aa26efc1aed1f2c0edb9a2dfbf59d0d7
+SHA1: d9113ee56980836b210de138b622064765eb26b8
+MD5sum: 112aebdc5388e908ad46c1e103e2c0b0
 Description: Live System Configuration Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
