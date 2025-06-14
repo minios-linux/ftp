@@ -358,6 +358,28 @@ Description: Provides thunar documentation, icons and translations
  This package contains architecture-independent files for thunar, the file
  manager and file management libraries for Xfce desktop environment.
 
+Package: xlunch-slax
+Version: 4.7.5-2
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 227
+Depends: libc6 (>= 2.34), libimlib2 (>= 1.4.5), libx11-6
+Homepage: https://github.com/minios-linux/xlunch-slax.git
+Priority: optional
+Section: unknown
+Filename: pool/main/x/xlunch-slax/xlunch-slax_4.7.5-2_i386.deb
+Size: 154272
+SHA256: 1df8eb215c84c562f642b138ceac886bf922fe61a443654edc16f7844bdf43f2
+SHA1: e128a40c56de88950ed9ff9373f79465a77aa263
+MD5sum: e11bf00b06d6573690355ad6762d709b
+Description: Graphical app launcher for X, using pure Xlib and Imlib2.
+ xlunch - graphical app launcher for Xorg/X11. It requires only pure Xlib and
+ Imlib2. It allows you to run programs, commands, or simply select something out
+ of a list using your mouse, keyboard, or both! UTF8 is fully supported meaning
+ you can have text of all kinds. The prompt allows you to run arbitrary commands,
+ and it works to filter your entries as well. xlunch is also highly configurable,
+ both in functionality and style, it can even be used as a desktop!
+
 Package: zenmap
 Source: nmap
 Version: 7.94+git20230807.3be01efb1+dfsg-4
