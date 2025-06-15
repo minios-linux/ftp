@@ -112,19 +112,19 @@ Description: X11 keyboard indicator and switcher
  uses the GTK+2.4 library only (no GNOME is needed).
 
 Package: flux-tools
-Version: 1.1
+Version: 1.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 113
+Installed-Size: 138
 Depends: bash (>= 5.0), gettext-base, gtkask, xlunch-slax
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/f/flux-tools/flux-tools_1.1_all.deb
-Size: 26996
-SHA256: 73a7658579b8d730cec9d6bb2e0a606712a201bd884a564350eae6b609907cf3
-SHA1: 3324249fdb248448fa6769fcf199d21c7ee6d07c
-MD5sum: e4a93e6bba59cc8b8a8f7fdf09f06413
+Filename: pool/main/f/flux-tools/flux-tools_1.2_all.deb
+Size: 35964
+SHA256: 5b9e2986ddd91d0745865afffdf2abc0e8ea9d69451e183d67a0162d91dfb818
+SHA1: dcae7897f79a0213a3ef000ea29c73d1bab8cd4f
+MD5sum: aa7a27f9431436171b458a920e65fe7e
 Description: Flux Tools for Fluxbox in MiniOS Linux.
  Flux Tools is a set of utilities designed to be used
  with Fluxbox for ease of use.

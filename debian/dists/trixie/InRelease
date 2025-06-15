@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Debian
 Label: MiniOS Repository
 Codename: trixie
-Date: Sat, 14 Jun 2025 23:25:49 UTC
+Date: Sun, 15 Jun 2025 15:05:44 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -130,15 +130,15 @@ SHA256:
  7eabbab99b183aeed0aff3b9ae608ea2803a37d9676dd93e87b9b0cf304db751 112 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmhOBP0ACgkQ7CDxjGi2
-L2w3SwwAnrzcGvdffM8F7eUQV3ZxqjUHNX7IGw0kTKefnF2kgyJIBnerAV75B13e
-gIR5+EKc+dGNBcuyirVkuu04YhfJZujUdmfDFGQl5OgHQOTW/a+8SPVWJWlUXyuh
-qh/R0M7TQ3TQjumOZ1o9fkCC/mlvkvPaJ+4ilu6TmwOliCAkFU2mPkOd0Bpbcjwn
-UrHqNNr9Ip8eP6GtFlNJ+J14efaM5fMYNCeuDrZxdWGuz9dGNrrzvgRsWVHlPeR9
-mwHzQjLZjKV/9iYsdAae3lfmpq5GA9B7m42EA7jx4kcZ8ARV+c8I/2qvkJ7mlOep
-fgH+GrNz/EHWwf+P+1LZ0Nt0O1YoEYT34I5ENyO0l1InLH4oAH0vhabOVjDNuMd2
-m06uYsrf2jZOZujM3eo7PnXDiP7Lx59rJmRu8pjEAk/GJJsBRNqtlwIxdF6wnEHL
-SCM1FkWIOVev1L7Lo2sV587vb0dv1rTqntq8TIJrdqEorVuQrSsMrUnQAU/BRB4g
-hbU9QUs6
-=82Mq
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmhO4UkACgkQ7CDxjGi2
+L2yU9wv/Y8NmXSXNGlikiHqMUkgNTPZYLEP282Ibv7lVoHO+6ovYgpQaZXtLxZjb
+h08D7U+qQQcZjpEntcDTZ59RICVYtAMAzIdt4qjUAv3/F2gfSMQA0c+r2CaTtc7u
+hMUNaQTPfpQLATuWKM64vPWETQ+gl4njxxL7QGV3t7quVnZTvN5agyguIO0CgbaR
+aDGgtvY9XW7Ku1fq1lLHt7C0OrKiS0SHa3f9n+caSzSf9LiQx0dZ0arzwk14b4sM
+pgl3iHlTHisCU/4gECRrTvG7Ka16tMFUPEC1YfYOYxDJTimWCy6Zq9n+M8xlJNgO
+ZbkNYl50d4SnYfuFkfkt9Tsedz4CNfe1f8E4WugCgEnjihL5zd+vOFkHqFfAozyL
+ulcOBYVT1MGtEc3EY6z7Nhnd3vkc1pbLpTpGHOOx+/QgMPFCsWHgkQLSZDo5OwBk
+MeGQZDzrCPBtMUTex9CUHnod0xoB+U2qRdJEfUUydycaurM/1n16EloQvL1ieXr4
+XXCOdebS
+=ZW0p
 -----END PGP SIGNATURE-----
