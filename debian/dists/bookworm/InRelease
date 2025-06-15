@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Debian
 Label: MiniOS Repository
 Codename: bookworm
-Date: Sun, 15 Jun 2025 15:24:14 UTC
+Date: Sun, 15 Jun 2025 21:48:43 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -130,15 +130,15 @@ SHA256:
  7eabbab99b183aeed0aff3b9ae608ea2803a37d9676dd93e87b9b0cf304db751 112 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmhO5Z8ACgkQ7CDxjGi2
-L2yE+Qv/d7iLXoy3GD5HsCJd0Pb497mwsQHVZ7I+xRqa/GDSaDU7A1BCBdksCUG/
-4K7lNj44nZthtNByfFuNPs7amAdroYj/nF+9nhnFqihorJQBLRJkXLtKGt3J/LAN
-KnpgzEMdG/N0QqiEATHfZz6yuRowmrodX2UsWVYkurPka4mHyflmPWHxzkGx5deE
-IXjzQoIzWxjL8HhezUi+hFNt0Og//zUPpk4ujoLeQxFqPMx9iGbVdWpyFGAK1mZZ
-wwF1z/4k0aR5crG9MIK5YsiEkCzmh8LIAZhKPpEx8a3zj/gAnKm3jHQ2vqdrYioz
-5PcndJbP/JFBqpxOEH8CxMZPTQ30aiLoP4T8qo7DKNMraN8QBZZAoY6e80XGmhp3
-He3jiO//F9zWErQ7VA35N6JBkZ7gulriS/y/o+tNUlXgcjHKDZ7LxL89nP56/2w8
-PZsF0Z8SvIW9Jax8nsT+t2Sb5zZIXeexF+kRxkqbHVc4dCICdVg6J84MH7h0aJvP
-jA2ulTKy
-=F66e
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmhPP7wACgkQ7CDxjGi2
+L2zwrgwAjjY4YC5yZvP1hWBNsTQBXWCL8s9CuPSvh1zIRIDleeJBEp8RrPt5nuVr
+oY804yazFA5O1neAd37Nnn842KjegiAbVP6DVJQGi681RU8VzE74JnIE+5uI0/1g
+0GNZWB6ZbSGpGqdfoB4cGm7g30l6khqYUN5Ac96CEne9npSK/IRL12+59hUoX7Gw
+/YemnA22/yF9HrbG5Pp3QlRuXtwWK6LnIxPYWY3Q/QkPvg6NWIeuyvXdOpwJK/Tj
+tuaHyA/H54ePGcmucrK1fdF4bVIo5c/M8oGt//7AAELJ4ZMzNYzCTWkcYZGUODOX
+S/0f2vE5Ips/fjPB50m0Arpj8Dakm0nslXEhio7RyzmjffZ+xvkTSIZEDZKB4ULt
+bHXT1YwI0/YZTt6ZRMVip62imwqzGIAkKy0r+lzoHknX5VAub4VokoLxkQos9kEe
+EAcDUe9a82eQOwRc2hrYJPinzyztzvH4F+mUStmv5JdsUHjM2k1dr5Z+xzDBGNYg
+9lXYqt7Q
+=pNv6
 -----END PGP SIGNATURE-----
